@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
     background-image: url(../IMG/background.jpg);
     display: flex;
     flex-wrap: wrap;
     position: relative;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 img {
-    color: wheat;
     left: 42px;
     top: -10px;
     position: relative;
@@ -24,7 +26,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 13, 26, 0.623);
+    box-shadow: 0 10px 50px -30px black;
+    background-color: rgba(78, 78, 78, 0.486);
 }
 li {
     text-align: center;
@@ -38,18 +41,20 @@ li {
 }
 li a {
     display: inline;
-    color: wheat;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 50% 16px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    scale: .85;
+    background-color: rgb(223, 223, 223);
 }
 a:link, a {
-    color: wheat;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     cursor: pointer;
+    scale: .85;
 }
 .titlePage {
     cursor: pointer;
@@ -60,7 +65,7 @@ a:link, a {
     text-transform: none;
     display: inline-block;
     top: 5px;
-    color: wheat;
+    color: rgb(0, 0, 0);
 }
 .iconFish {
     width: 4%;

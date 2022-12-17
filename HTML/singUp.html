@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="../SCRIPT/singUp.js"></script>
+        <link rel="stylesheet" href="../CSS/singUp.css">
+        <link rel="icon" href="../IMG/sailing.png">
+        <title>Cadastre-se</title>
+    </head>
+    <body>
+        <ul class="a">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#news">Novidades</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#about">Sobre</a></li>
+          </ul>
+        <div>
+            <h1 class="titlePage"><a href="../index.html">Colonia Dos Pescadores - Itapissuma</a></h1>
+            <a href="../index.html"><img class="iconFish" src="../IMG/sailing.png" alt="png"></a>
+        </div>
+        <div class="loginCard">
+            <div class="column">
+                <h1>Entrar</h1>
+                <form>
+                    <div class="formItem">
+                        <input type="text" class="formElement" placeholder="Nome Completo" title="Digite seu nome completo">
+                    </div>
+                    <div class="formItem">
+                        <input type="text" name="cpf" class="formElement" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+                    </div>
+                    <div class="formItem">
+                        <input type="email" class="formElement" placeholder="Email" title="Digite um email válido">
+                    </div>
+                    <div class="formItem">
+                        <input type="date" class="formElement" placeholder="Data de Nascimento">
+                    </div>
+                    <label>
+                    <div class="formItem">
+                        <input name="password" type="password" class="formElement" placeholder="Senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A senha deve conter no minimo 8 digitos, 1 letra maiuscula e 1 minuscula.">
+                    </div>
+                    </label>
+                    <div class="formItem">
+                        <label>
+                        <input name="confirm_password" type="password" class="formElement" placeholder="Confirmar senha">
+                        <span id='message'></span>
+                        </label>
+                    </div>
+                    <div>
+                </form>
+                <div>
+                    <input class="singUp" type="submit" value="Cadastrar-se">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

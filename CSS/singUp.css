@@ -13,8 +13,8 @@ body {
     display: grid;
     align-items: center;
     left: 280px;
-    top: 35px;
-    position: relative;
+    top: 90px;
+    position: fixed;
     justify-content: center;
     width: 800px;
     border-radius: 30px;
@@ -101,10 +101,11 @@ a:link, a {
     cursor: pointer;
     transition: all .3s;
     font-weight: 600;
+    border: none;   
     position: relative;
     align-items: center;
     text-align: center;
-    left: 0px;
+    margin-top: 15px;
 }
 .singUp:hover {
     scale: .95;
