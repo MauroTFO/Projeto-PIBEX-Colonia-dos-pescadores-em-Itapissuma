@@ -1,0 +1,82 @@
+body {
+    background-image: url(../IMG/background.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0px;
+}
+img {
+    color: wheat;
+    left: 42px;
+    top: -10px;
+    position: relative;
+    width: 45px;
+    display: inline-block;
+    align-items: center;
+}
+img a:hover {
+    background-color: #111;
+}
+ul {
+    height: 10%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 13, 26, 0.623);
+}
+li {
+    text-align: center;
+    text-transform: none;
+    top: -8px;
+    left: 800px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+li a {
+    display: inline;
+    color: wheat;
+    text-align: center;
+    padding: 50% 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+a:link, a {
+    color: wheat;
+    text-decoration: none;
+    cursor: pointer;
+}
+.titlePage {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    left: 80px;
+    position: absolute;
+    text-transform: none;
+    display: inline-block;
+    top: 5px;
+    color: wheat;
+}
+.iconFish {
+    width: 100%;
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    top: -335px;
+    cursor: pointer;
+}
+.login {
+    text-align: center;
+    text-transform: none;
+    top: 15px;
+    left: 820px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    position: relative;
+}
