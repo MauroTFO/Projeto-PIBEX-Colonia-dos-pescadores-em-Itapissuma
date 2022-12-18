@@ -145,16 +145,3 @@ h1, h2 {
     outline: none;
     box-shadow: 0 0 0 2px black;
 }
-.formCheckBoxItem {
-    display: flex;
-    align-items: center;
-    gap: .7rem;
-    margin-left: 5px;
-    margin-bottom: 8px;
-}
-input[type=checkbox] {
-    accent-color: black;
-    width: 16px;
-    height: 16px;
-
-}
