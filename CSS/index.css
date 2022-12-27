@@ -9,10 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 img {
-    left: 42px;
-    top: -10px;
+    left: 700px;
+    top: 0px;
     position: relative;
-    width: 45px;
+    width: 60px;
     display: inline-block;
     align-items: center;
 }
@@ -20,8 +20,10 @@ img a:hover {
     background-color: #111;
 }
 ul {
+    top: 80px;
     height: 10%;
     width: 100%;
+    position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,7 +34,7 @@ ul {
 li {
     text-align: center;
     text-transform: none;
-    top: -8px;
+    top: 35px;
     left: 800px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -68,7 +70,7 @@ a:link, a {
     color: rgb(0, 0, 0);
 }
 .iconFish {
-    width: 4%;
+    width: 3%;
     position: fixed;
     left: 15px;
     display: inline-block;
@@ -78,8 +80,9 @@ a:link, a {
 .login {
     text-align: center;
     text-transform: none;
-    top: 15px;
-    left: 820px;
+    width: 100%;
+    top: 12px;
+    left: 900px;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     display: inline-block;

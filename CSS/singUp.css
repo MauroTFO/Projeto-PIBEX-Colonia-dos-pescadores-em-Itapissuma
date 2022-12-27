@@ -12,8 +12,8 @@ body {
     background-color: rgba(78, 78, 78, 0.486);
     display: grid;
     align-items: center;
-    left: 280px;
-    top: 90px;
+    left: 500px;
+    top: 190px;
     position: fixed;
     justify-content: center;
     width: 800px;
@@ -29,10 +29,10 @@ body {
     padding: 4px;
 }
 img {
-    left: 42px;
-    top: -10px;
+    left: 700px;
+    top: 0px;
     position: relative;
-    width: 45px;
+    width: 60px;
     display: inline-block;
     align-items: center;
 }
@@ -40,8 +40,10 @@ img a:hover {
     background-color: #111;
 }
 ul {
+    top: 80px;
     height: 10%;
     width: 100%;
+    position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -52,9 +54,10 @@ ul {
 li {
     text-align: center;
     text-transform: none;
-    top: 20px;
+    top: 35px;
     left: 800px;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     position: relative;
 }
@@ -85,7 +88,7 @@ a:link, a {
     color: rgb(0, 0, 0);
 }
 .iconFish {
-    width: 4%;
+    width: 3%;
     position: absolute;
     left: 15px;
     display: inline-block;
@@ -101,7 +104,7 @@ a:link, a {
     cursor: pointer;
     transition: all .3s;
     font-weight: 600;
-    border: none;   
+    border: none;
     position: relative;
     align-items: center;
     text-align: center;
